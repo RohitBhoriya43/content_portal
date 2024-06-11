@@ -1,0 +1,50 @@
+.home-screen {
+    padding: 20px;
+}
+
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.filters input,
+.filters select {
+    flex: 1 1 150px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.content-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.content-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.content-item h2 {
+    margin: 0 0 10px 0;
+}
+
+.content-item p {
+    margin: 5px 0;
+}
+
+.content-item button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.content-item button:hover {
+    background-color: #0056b3;
+}

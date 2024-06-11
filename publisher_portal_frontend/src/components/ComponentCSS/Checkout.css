@@ -1,0 +1,39 @@
+.checkout {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.checkout-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.checkout-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.checkout-item:last-child {
+    border-bottom: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input[type="file"] {
+    display: block;
+    margin-top: 10px
+}
